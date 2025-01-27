@@ -15,8 +15,8 @@ LDR_PIN = 35              # GPIO pin for LDR
 MQ135_PIN = 32            # GPIO pin for MQ-135
 WIFI_SSID = 'lokimux'
 WIFI_PASSWORD = '11072004'
-TELEGRAM_TOKEN = '7447852497:AAFaefX8uXIA9drenumOLAblUlpR7xDStAg'  # Replace with your actual token
-CHAT_ID = '1706011784'  # Replace with your actual chat ID
+TELEGRAM_TOKEN = ''  # Replace with your actual token
+CHAT_ID = ''  # Replace with your actual chat ID
 
 # ========Initialize I2C=========
 i2c = I2C(1, scl=Pin(22), sda=Pin(21))  # Adjust pins accordingly
